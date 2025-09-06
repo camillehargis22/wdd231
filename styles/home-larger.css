@@ -1,0 +1,30 @@
+@media only screen and (min-width: 38rem) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 8px;
+        margin-bottom: 8px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        grid-column: span 3;
+        color: #000080;
+    }
+
+    .about {
+        grid-column: span 2;
+    }
+
+    .courses {
+        grid-column: span 3;
+    }
+
+    #courses {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 8px;
+        margin: 8px;
+    }
+}

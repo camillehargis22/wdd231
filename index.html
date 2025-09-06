@@ -3,13 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- use this link first before other css files -->
+    <title>W01 Assignment: Course Home Page - Camille Hargis</title>
+    <meta name="description" content="Home page for WDD 231">
+    <meta name="author" content="Camille Hargis">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Style Sheets -->
     <link rel="stylesheet" href="styles/normalize.css">
-    <!-- alternatively use this link first -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-larger.css">
+
+    <!-- Script Sheets -->
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 <body>
-    Test Github Push
+    <header>
+        <img src="images/tree-fill.svg" alt="Site Logo" width="1" height="1">
+        <span>Camille Hargis</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="link current"><a href="index.html">Home</a></li>
+            <li class="link"><a href="#">Chamber Project</a></li>
+            <li class="link"><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Camille Hargis</h1>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>My name is Camille Hargis. I am from Utah, USA. I am working towards my Bachelor's Degree in Software Development because I discovered how much I love programming! I also work full time on individual taxes. When I find spare time, I enjoy reading, listening to music, or watching movies. I love to swim and go camping or just sit outside my cabin and watch the hummingbirds in the peace and quiet.</p>
+        </section>
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/profile.webp" alt="Student Photo">
+        </section>
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="buttons">
+                <button id="all">All</button>
+                <button id="wdd">WDD</button>
+                <button id="cse">CSE</button>
+            </div>
+            <div id="courses"></div>
+            <div id="credits"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/camille-hargis-97988a117/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="1" height="1"></a>
+            <a href="https://www.github.com/camillehargis22" target="_blank"><img src="images/github.svg" alt="GitHub" width="1" height="1"></a>
+            <a href="https://www.facebook.com/cami.hargis" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="1" height="1"></a>
+        </div>
+        <p>&copy;<span id="currentyear"></span> 🔹 Camille Hargis 🔹 Utah</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>

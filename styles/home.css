@@ -1,0 +1,69 @@
+main {
+    margin: 6px;
+}
+
+h1 {
+    color: #000080;
+    padding: 6px;
+}
+
+h2 {
+    background-color: #000080;
+    color: #00FFFF;
+    padding: 10px;
+    margin: 0;
+}
+
+.about, .photo {
+    background-color: #AEFFFF;
+}
+
+.photo img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+main p, .photo img {
+    padding: 10px;
+    color: #000080;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 8px;
+    margin: 8px;
+}
+
+.courses button {
+    color: #000080;
+    background-color: #AEFFFF;
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 2px 2px;
+}
+
+.courses button:hover {
+    color: #AEFFFF;
+    background-color: #000080;
+}
+
+#courses {
+    display: grid;
+    grid-gap: 8px;
+    margin: 8px;
+}
+
+.course {
+    border: solid 1px #000080;
+    border-radius: 6px;
+    margin: 8px;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+}
+
+#credits {
+    text-align: center;
+}

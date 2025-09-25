@@ -1,0 +1,49 @@
+{
+    "companies" : [
+        {
+            "name": "name1",
+            "address": "address1",
+            "phone": "phone1",
+            "website": "website1",
+            "imageUrl": "imageUrl1",
+            "membershipLevel": "membershipLevel1",
+            "otherInfo": "otherInfo1"
+        },
+        {
+            "name": "name2",
+            "address": "address2",
+            "phone": "phone2",
+            "website": "website2",
+            "imageUrl": "imageUrl2",
+            "membershipLevel": "membershipLevel2",
+            "otherInfo": "otherInfo2"
+        },
+        {
+            "name": "name3",
+            "address": "address3",
+            "phone": "phone3",
+            "website": "website3",
+            "imageUrl": "imageUrl3",
+            "membershipLevel": "membershipLevel3",
+            "otherInfo": "otherInfo3"
+        },
+        {
+            "name": "name4",
+            "address": "address4",
+            "phone": "phone4",
+            "website": "website4",
+            "imageUrl": "imageUrl4",
+            "membershipLevel": "membershipLevel4",
+            "otherInfo": "otherInfo4"
+        },
+        {
+            "name": "name5",
+            "address": "address5",
+            "phone": "phone5",
+            "website": "website5",
+            "imageUrl": "imageUrl5",
+            "membershipLevel": "membershipLevel5",
+            "otherInfo": "otherInfo5"
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+/* HEADER */
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.2rem;
+    /* color: */
+}
+
+/* HAMBURGER NAVIGATION */
+.hamburger {
+    /* background: */
+    border: none;
+    /* color: */
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+/* NAVIGATION */
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    /* color: */
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation li.current {
+    background-color: #000;
+}
+
+.navigation a:hover {
+    background-color: #000;
+}
+
+/* MAIN */
+.hero {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    text-align: left;
+    margin-left: 8px;
+}
+
+.live {
+    margin: 8px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #666;
+    margin-bottom: 0;
+}
+
+.events div, .weather div, .forecast div {
+    border: solid 1px #000;
+    background-color: #999;
+    padding: 50px;
+}
+
+/* FOOTER */
+footer {
+    /* grid will go in directory-large.css with 3 columns */
+    padding: 1rem 10px;
+    text-align: left;
+}
+
+/* Contact Section */
+.contact {
+    border: solid 1px #000;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Social Media Section */
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    padding: 8px;
+    border: solid 1px #000;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+
+.social img {
+    width: 44px;
+    height: 44px;
+}
+
+.social a:hover {
+    background-color: #000;
+}
+
+/* Info Section */
+.info {
+    border: solid 1px #000;
+}

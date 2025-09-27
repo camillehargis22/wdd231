@@ -1,49 +1,67 @@
 {
-    "companies" : [
+    "companies": [
         {
-            "name": "name1",
-            "address": "address1",
-            "phone": "phone1",
-            "website": "website1",
-            "imageUrl": "imageUrl1",
-            "membershipLevel": "membershipLevel1",
-            "otherInfo": "otherInfo1"
+            "name": "MINT Physical Therapy",
+            "address": "Roy, UT 84067",
+            "phone": "(480) 272-4674",
+            "website": "minttherapy.com",
+            "imageUrl": "./images/mint-logo.webp",
+            "membershipLevel": "Silver",
+            "otherInfo": "Healing in Motion provides mobile physical therapy services traveling to your home, work, pickleball court, ski slope, or wherever you need"
         },
         {
-            "name": "name2",
-            "address": "address2",
-            "phone": "phone2",
-            "website": "website2",
-            "imageUrl": "imageUrl2",
-            "membershipLevel": "membershipLevel2",
-            "otherInfo": "otherInfo2"
+            "name": "Sparrow's Home Furnishings",
+            "address": "4456 South 1900 West, Roy, UT 84067",
+            "phone": "(801) 731-5400",
+            "website": "https://www.sparrowshomefurnishings.com",
+            "imageUrl": "./images/sparrows-logo.webp",
+            "membershipLevel": "Silver",
+            "otherInfo": "In today's era of superstores, often owned by someone thousands of miles away, it's refreshing to know there are still hometown, family-owned businesses"
         },
         {
-            "name": "name3",
-            "address": "address3",
-            "phone": "phone3",
-            "website": "website3",
-            "imageUrl": "imageUrl3",
-            "membershipLevel": "membershipLevel3",
-            "otherInfo": "otherInfo3"
+            "name": "Roy City",
+            "address": "5051 South 1900 West, Roy, UT 84067",
+            "phone": "(801) 774-1000",
+            "website": "www.royutah.org",
+            "imageUrl": "./images/roy-city-logo.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "City Building"
         },
         {
-            "name": "name4",
-            "address": "address4",
-            "phone": "phone4",
-            "website": "website4",
-            "imageUrl": "imageUrl4",
-            "membershipLevel": "membershipLevel4",
-            "otherInfo": "otherInfo4"
+            "name": "Weber County Library",
+            "address": "2039 West 4000 South, Roy, UT 84067",
+            "phone": "(801) 337-2618",
+            "website": "www.weberpl.lib.ut.us",
+            "imageUrl": "./images/library-logo.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "Library"
         },
         {
-            "name": "name5",
-            "address": "address5",
-            "phone": "phone5",
-            "website": "website5",
-            "imageUrl": "imageUrl5",
-            "membershipLevel": "membershipLevel5",
-            "otherInfo": "otherInfo5"
+            "name": "Burger King",
+            "address": "5390 South 1900 West, Roy, UT 84067",
+            "phone": "(385) 367-5823",
+            "website": "www.bk.com",
+            "imageUrl": "./images/bk-logo.webp",
+            "membershipLevel": "Silver",
+            "otherInfo": "Have it your way!"
+        },
+        {
+            "name": "America First Credit Union",
+            "address": "5662 South 2050 West, Roy, UT 84067",
+            "phone": "(800) 999-3961",
+            "website": "https://www.americafirst.com",
+            "imageUrl": "./images/americafirstcu-logo.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "All your financial needs in one place."
+        },
+        {
+            "name": "Hill Aerospace Museum",
+            "address": "7961 Cottonwood St, HAFB, UT 84056",
+            "phone": "(801) 825-5817",
+            "website": "https://www.aerospaceutah.org",
+            "imageUrl": "./images/hafb-logo.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "The Hill Aerospace Museum is one of the premier attractions in Utah. The museum annually welcomes around 350,000 visitors, coming from every state and many foreign countries. FREE ADMISSION!"
         }
     ]
 }

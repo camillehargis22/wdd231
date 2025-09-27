@@ -27,12 +27,13 @@
     <!-- Scripts -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/companies.js" defer></script>
 </head>
 <body>
     <header>
         <img src="images/bank.svg" alt="Site Logo" width="1" height="1">
         <span>Roy City Chamber Directory</span>
-        <button id="ham-btn" class="hamburger"></button>
+        <button id="ham-btn" class="hamburger" aria-label="Navigation"></button>
         <nav id="nav-bar" class="navigation">
         <ul>
             <li class="link"><a href="#">Home</a></li>
@@ -44,25 +45,60 @@
     </header>
     
     <main>
-        <img class="hero" src="images/hero-large.webp" alt="Hero Image">
+        <img class="hero" src="images/hero-large.webp" alt="hero image">
         <section>
             <h1>Directory</h1>
-            <div class="live">
-                <div class="events">
+            <div id="live">
+                <div id="events">
                     <h2>Events</h2>
-                    <div></div>
+                    <div>
+                        <h3>Saturday, September 27, 2025</h3>
+                        <h4>Wasatch Pony Club's The Pumpkin Event</h4>
+                        <p>8am - 6pm</p>
+                        <p>Location: 	Golden Spike Event Center, 1000 N 1200 W, Ogden, UT 84404
+                        </p>
+                        <h4>Fall Foraging</h4>
+                        <p>10 - 11:30am</p>
+                        <p>Location: 	Ogden Nature Center, 966 W 12th Street, Ogden UT 84404
+                        </p>
+                        <h3>Sunday, September 28, 2025</h3>
+                        <h4>	
+                        Wasatch Yoga Fest</h4>
+                        <p>10am - 7pm</p>
+                        <p>Location: 	The Monarch Ogden 455 25th Street, Ogden, UT 84401
+                        </p>
+                    </div>
                 </div>
-                <div class="weather">
+                <div id="weather">
                     <h2>Current Weather</h2>
-                    <div></div>
+                    <div>
+                        <span>&#9788;</span>
+                        <p>79&deg; F</p>
+                        <p>Sunny</p>
+                        <p>High: 80&deg; F</p>
+                        <p>Low: 58&deg; F</p>
+                        <p>Precipitation: 0%</p>
+                        <p>Humidity: 26%</p>
+                        <p>Wind: 6mph</p>
+                    </div>
                 </div>
-                <div class="forecast">
+                <div id="forecast">
                     <h2>Weather Forecast</h2>
-                    <div></div>
+                    <div>
+                        <p>Today: 80&deg; F</p>
+                        <p>Sunday: 72&deg; F</p>
+                        <p>Monday: 77&deg; F</p>
+                        <p>Tuesday: 70&deg; F</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="cards"></section>
+        <div id="btns">
+            <button id="grid" aria-label="Grid View">&#9783;</button>
+            <button id="list" aria-label="List View">&#9776;</button>
+        </div>
+        <section id="cards"></section>
+        <section id="members"></section>
     </main>
     <footer>
         <div class="contact">
@@ -74,7 +110,7 @@
         </div>
         <div class="social">
             <a href="https://www.linkedin.com/in/camille-hargis-97988a117/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="1" height="1"></a>
-            <a href="https://www.github.com/camillehargis22" target="_blank"><img src="images/github.svg" alt="GitHub" width="1" height="1"></a>
+            <a href="https://www.github.com/camillehargis22" target="_blank"><img src="images/github.svg" alt="GitHub Link" width="1" height="1"></a>
             <a href="https://www.facebook.com/cami.hargis" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="1" height="1"></a>
         </div>
         <div class="info">

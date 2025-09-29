@@ -7,13 +7,25 @@
 .hero {
     display: block;
     margin: auto;
-    min-width: 320px;
-    max-width: 100%;
+    width: 100%;
 }
 
 h1 {
     text-align: left;
     margin-left: 8px;
+}
+
+#join {
+    margin: 8px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #add8e6;
+}
+
+#join:hover {
+    color: #add8e6;
+    background-color: #000080;
 }
 
 #live {
@@ -36,56 +48,54 @@ h2 {
     border-bottom: solid 1px #000080;
 }
 
-#weather span {
-    font-size: 50px;
+#weather figure, #weather p {
+    text-align: center;
+    font-size: 30px;
 }
 
-#btns {
-    margin-left: 8px;
+#weather figure img, #forecastSection figure img {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#forecastSection {
+    display: grid;
+    text-align: center;
+    font-size: 18px;
 }
 
 /* MAIN CARDS GRID VIEW*/
-#cards {
+#spotlights {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: .5rem;
     margin: 8px;
 }
 
-#cards section {
+#spotlights section {
     background-color: #eee;
     text-align: left;
 }
 
-#cards h2 {
+#spotlights h2 {
     margin-top: 0;
     background-color: #eee;
     border-bottom: solid 1px #000;
 }
 
-#cards section .imgAndInfo {
+#spotlights section .imgAndInfo {
     display: grid;
     grid-template-columns: auto auto;
     padding: 2px;
 }
 
-#cards img {
+#spotlights img {
     width: 90%;
     height: auto;
     border: solid 1px #000;
     margin:  15px 5px;
 }
 
-#cards div {
+#spotlights div {
     overflow-wrap: anywhere;
-}
-
-/* MAIN CARDS LIST VIEW */
-#members {
-    margin: 8px;
-}
-
-#members h2 {
-    text-align: left;
-    padding: 4px;
 }

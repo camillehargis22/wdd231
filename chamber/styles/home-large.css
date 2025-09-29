@@ -9,11 +9,7 @@
         grid-gap: 8px;
     }
 
-    #cards {
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    }
-
-    #cards section .imgAndInfo {
-        margin: 8px;
+    #forecastSection {
+        display: flex;
     }
 }

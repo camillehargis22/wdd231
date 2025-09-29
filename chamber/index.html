@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Project - Directory</title>
-    <meta name="description" content="Chamber Project - Directory Page">
+    <title>Chamber Project - Home</title>
+    <meta name="description" content="Chamber Project - Home Page">
     <meta name="author" content="Camille Hargis">
-    <meta property="og:title" content="Chamber Project - Directory Page">
-    <meta property="og:description" content="Directory page for Camille Hargis for course WDD231 for Chamber Project.">
+    <meta property="og:title" content="Chamber Project - Home Page">
+    <meta property="og:description" content="Home page for Camille Hargis for course WDD231 for Chamber Project.">
     <meta property="og:image" content="https://camillehargis22.github.io/wdd231/chamber/images/bank.svg">
-    <meta property="og:url" content="https://camillehargis22.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://camillehargis22.github.io/wdd231/chamber/index.html">
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico">
@@ -23,15 +23,16 @@
     <link rel="stylesheet" href="styles//normalize.css">
     <link rel="stylesheet" href="styles/header-base.css">
     <link rel="stylesheet" href="styles/header-large.css">
-    <link rel="stylesheet" href="styles/directory-base.css">
-    <link rel="stylesheet" href="styles/directory-large.css">
+    <link rel="stylesheet" href="styles/home-base.css">
+    <link rel="stylesheet" href="styles/home-large.css">
     <link rel="stylesheet" href="styles/footer-base.css">
     <link rel="stylesheet" href="styles/footer-large.css">
 
     <!-- Scripts -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/companies.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
     <header>
@@ -40,8 +41,8 @@
         <button id="ham-btn" class="hamburger" aria-label="Navigation"></button>
         <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="link"><a href="index.html">Home</a></li>
-            <li class="link current"><a href="directory.html">Directory</a></li>
+            <li class="link current"><a href="index.html">Home</a></li>
+            <li class="link"><a href="directory.html">Directory</a></li>
             <li class="link"><a href="#">Join</a></li>
             <li class="link"><a href="#">Discover</a></li>
         </ul>
@@ -49,10 +50,11 @@
     </header>
     
     <main>
-        <img class="hero" src="images/hero-small.webp" alt="hero image">
+        <img class="hero" src="images/hero-large.webp" alt="hero image">
         <section>
-            <h1>Directory</h1>
-            <!-- <div id="live">
+            <h1>Home</h1>
+            <button id="join" aria-label="join here">Join Here!</button>
+            <div id="live">
                 <div id="events">
                     <h2>Events</h2>
                     <div>
@@ -76,33 +78,23 @@
                 <div id="weather">
                     <h2>Current Weather</h2>
                     <div>
-                        <span>&#9788;</span>
-                        <p>79&deg; F</p>
-                        <p>Sunny</p>
-                        <p>High: 80&deg; F</p>
-                        <p>Low: 58&deg; F</p>
-                        <p>Precipitation: 0%</p>
-                        <p>Humidity: 26%</p>
-                        <p>Wind: 6mph</p>
+                        <figure>
+                            <img id="weather-icon" src="" alt="">
+                            <figcaption></figcaption>
+                        </figure>
+                        <p id="current-temp">&deg; F</p>
                     </div>
                 </div>
                 <div id="forecast">
                     <h2>Weather Forecast</h2>
-                    <div>
-                        <p>Today: 80&deg; F</p>
-                        <p>Sunday: 72&deg; F</p>
-                        <p>Monday: 77&deg; F</p>
-                        <p>Tuesday: 70&deg; F</p>
-                    </div>
+                    <div id="forecastSection"></div>
                 </div>
-            </div> -->
+            </div>
         </section>
-        <div id="btns">
-            <button id="grid" aria-label="Grid View">&#9783;</button>
-            <button id="list" aria-label="List View">&#9776;</button>
-        </div>
-        <section id="cards"></section>
-        <section id="members"></section>
+        <section>
+            <h1>Spotlights!</h1>
+            <section id="spotlights"></section>
+        </section>
     </main>
     <footer>
         <div class="contact">

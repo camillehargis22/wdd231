@@ -21,6 +21,7 @@ h1 {
     padding: 10px;
     font-weight: bold;
     background-color: #add8e6;
+    position: absolute;
 }
 
 #join:hover {

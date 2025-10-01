@@ -55,7 +55,16 @@ main p, .photo img {
     margin: 8px;
 }
 
-.course {
+/* .course {
+    border: solid 1px #000080;
+    border-radius: 6px;
+    margin: 8px;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+} */
+
+#courses div {
     border: solid 1px #000080;
     border-radius: 6px;
     margin: 8px;
@@ -66,4 +75,26 @@ main p, .photo img {
 
 #credits {
     text-align: center;
+}
+
+#course-details {
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    padding: 20px;
+}
+
+#course-details::backdrop {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+#course-details button {
+    display: flex;
+}
+
+#closeModal {
+    float: right;
+    margin: 10px;
 }

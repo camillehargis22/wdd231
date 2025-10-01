@@ -78,23 +78,26 @@ const courses = [
     }
 ]
 
-renderCourses(courses);
+// renderCourses(courses);
 
 const allCoursesButton = document.querySelector("#all");
 allCoursesButton.addEventListener("click", () => {
-    renderCourses(courses);
+    // renderCourses(courses);
+    displayCourses(courses);
 });
 
 const wddCoursesButton = document.querySelector("#wdd");
 wddCoursesButton.addEventListener("click", () => {
     let wddCourses = courses.filter(course => course.subject == "WDD");
-    renderCourses(wddCourses);
+    // renderCourses(wddCourses);
+    displayCourses(wddCourses);
 });
 
 const cseCoursesButton = document.querySelector("#cse");
 cseCoursesButton.addEventListener("click", () => {
     let cseCourses = courses.filter(course => course.subject == "CSE");
-    renderCourses(cseCourses);
+    // renderCourses(cseCourses);
+    displayCourses(cseCourses);
 });
 
 function completed(course) {
@@ -106,14 +109,63 @@ function completed(course) {
     }
 }
 
-function courseTemplate(course) {
-    return `<div class="course">
-                <p>${completed(course)} ${course.subject} ${course.number}</p>
-            </div>`;
+// function courseTemplate(course) {
+//     return `<div class="course">
+//                 <p>${completed(course)} ${course.subject} ${course.number}</p>
+//             </div>`;
+// }
+
+// function renderCourses(courses) {
+//     const html = courses.map(courseTemplate);
+//     document.querySelector("#courses").innerHTML = html.join("");
+//     document.querySelector("#credits").innerHTML = `<p>The total credits for courses listed above is: ${courses.reduce((acc, course) => acc + course.credits, 0)}</p>`;
+// }
+
+const allCourses = document.querySelector('#courses');
+
+const displayCourses = (courses) => {
+    allCourses.innerHTML = "";
+    courses.forEach((course) => {
+        let card = document.createElement('div');
+        let courseName = document.createElement('p');
+
+        courseName.innerHTML = `${completed(course)} ${course.subject} ${course.number}`;
+
+        card.appendChild(courseName);
+
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
+
+        allCourses.appendChild(card);
+    });
+
+    const credits = document.querySelector('#credits').innerHTML = `<p>The total credits for courses listed above is: ${courses.reduce((acc, course) => acc + course.credits, 0)}</p>`;
 }
 
-function renderCourses(courses) {
-    const html = courses.map(courseTemplate);
-    document.querySelector("#courses").innerHTML = html.join("");
-    document.querySelector("#credits").innerHTML = `<p>The total credits for courses listed above is: ${courses.reduce((acc, course) => acc + course.credits, 0)}</p>`;
+displayCourses(courses);
+
+
+// DIALOG
+
+function displayCourseDetails(course) {
+    const modal = document.querySelector('#course-details');
+
+    modal.innerHTML = '';
+    modal.innerHTML = `
+        <button id="closeModal">&#10006;</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits</strong>: ${course.credits}</p>
+        <p><strong>Certificate</strong>: ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>`;
+    
+    modal.showModal();
+
+    const closeModal = document.querySelector('#closeModal');
+
+    closeModal.addEventListener('click', () => {
+        modal.close();
+    });
 }

@@ -1,0 +1,69 @@
+* {
+    color: #000080;
+    font-family: "Epunda Slab", sans-serif;
+}
+
+h1 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+form {
+    margin: 1rem;
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    padding-top: .5rem;
+}
+
+form input[type=text], form input[type=tel], form input[type=email] {
+    display: block;
+}
+
+form input:required {
+    border: solid 1px #FF0000;
+}
+
+form input:focus {
+    border: solid 2px #000080;
+}
+
+form input:required:valid {
+    border: none;
+    border-left: solid 1px #00FF00;
+}
+
+form textarea {
+    width: 95%;
+    height: 100px;
+}
+
+form input[type=submit] {
+    margin-top: 8px;
+}
+
+.membership-levels {
+    margin-left: 8px;
+}
+
+.member {
+    text-align: center;
+    background-color: #EEE;
+    border: solid 1px #000;
+    padding-bottom: 8px;
+    width: 95%;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    transition: background-color 1s ease-in-out;
+}
+
+.member:hover {
+    background-color: #FFF;
+}
+
+.member input[type=submit] {
+    background-color: #FFF;
+    border-radius: 5px;
+}

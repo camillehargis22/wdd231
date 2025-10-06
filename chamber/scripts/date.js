@@ -9,3 +9,8 @@ year.innerHTML = today.getFullYear();
 
 let text = document.lastModified;
 document.getElementById("lastModified").innerHTML = text;
+
+
+
+
+document.getElementById("currentTimestamp").value = today;

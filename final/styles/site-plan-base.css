@@ -1,0 +1,31 @@
+main {
+    padding: 8px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+img {
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+
+#green {
+    color: #006400;
+}
+
+#lightblue {
+    background-color: #A0EADE;
+    padding: 2px;
+}
+
+#lightgreen {
+    background-color: #4CB963;
+}
+
+#lightpurple {
+    background-color: #E9F1F7;
+    padding: 2px;
+}

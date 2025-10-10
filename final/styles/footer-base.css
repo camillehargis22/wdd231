@@ -1,0 +1,35 @@
+* {
+    color: #000080;
+    font-family: "Epunda Slab", sans-serif;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+}
+
+/* Social Media Section */
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    padding: 8px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+
+.social img {
+    width: 44px;
+    height: 44px;
+}
+
+.social a:hover {
+    padding: 2px;
+    border-bottom: solid 2px #000080;
+}

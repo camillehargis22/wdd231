@@ -68,3 +68,12 @@ header span {
 .navigation a:hover {
     border-bottom: solid 2px #000080;
 }
+
+main {
+    margin: 8px;
+    text-align: center;
+}
+
+.motto {
+    color: #006400;
+}

@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page for Final - Camille Hargis</title>
-    <meta name="description" content="Home page for Final for WDD 231">
+    <title>Projects Page for Final - Camille Hargis</title>
+    <meta name="description" content="Projects page for Final for WDD 231">
     <meta name="author" content="Camille Hargis">
-    <meta property="og:title" content="Home Page for Final - Camille Hargis">
-    <meta property="og:description" content="Home page for Camille Hargis for Final for course WDD231.">
+    <meta property="og:title" content="Projects Page for Final - Camille Hargis">
+    <meta property="og:description" content="Projects page for Camille Hargis for Final for course WDD231.">
     <meta property="og:image" content="https://127.0.0.1:5500/images/icons8-chameleon-16.png">
-    <meta property="og:url" content="https://127.0.0.1:5500/index.html">
+    <meta property="og:url" content="https://127.0.0.1:5500/projects.html">
 
     <!-- Favicon -->
     <link rel="icon" href="images/icons8-chameleon-64.svg">
@@ -23,15 +23,15 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/header-base.css">
     <link rel="stylesheet" href="styles/header-large.css">
-    <link rel="stylesheet" href="styles/home-base.css">
-    <link rel="stylesheet" href="styles/home-large.css">
+    <link rel="stylesheet" href="styles/projects-base.css">
+    <link rel="stylesheet" href="styles/projects-large.css">
     <link rel="stylesheet" href="styles/footer-base.css">
     <link rel="stylesheet" href="styles/footer-large.css">
 
     <!-- Scripts -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/home.js" defer></script>
+    <script src="scripts/projects.js" defer></script>
 </head>
 <body>
     <header>
@@ -40,20 +40,21 @@
         <button id="ham-btn" class="hamburger" aria-label="Navigation"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li class="link current"><a href="index.html">Home</a></li>
-                <li class="link"><a href="projects.html">Projects</a></li>
+                <li class="link"><a href="index.html">Home</a></li>
+                <li class="link current"><a href="projects.html">Projects</a></li>
                 <li class="link"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <img src="images/hero-small.PNG" alt="Hero Image">
         <h2 class="motto">Motto: "Jack of all trades, master of none, but oftentimes better than a master of one."</h2>
-        <section id="about">
-            <h1>About</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?</p>
-        </section>
-        <div id="home-cards"></div>
+        <div id="buttons">
+            <button id="completedProjects" aria-label="Show Completed Projects">Completed Projects</button>
+            <button id="currentProjects" aria-label="Show Current Projects">Current Projects</button>
+            <button id="futureProjects" aria-label="Show Future Projects">Future Projects</button>
+        </div>
+        <div id="projectCards"></div>
+        <dialog id="project-details"></dialog>
     </main>
     <footer>
         <div class="social">

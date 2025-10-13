@@ -1,0 +1,15 @@
+main img {
+    width: 100%;
+}
+
+section {
+    border: solid 1px #006400;
+    padding: 4px;
+    margin-bottom: 8px;
+}
+
+section h1, section h2 {
+    background-color: #A0EADE;
+    margin-top: 0;
+    padding: 4px;
+}

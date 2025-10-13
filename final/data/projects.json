@@ -1,0 +1,88 @@
+{
+    "projects": [
+        {
+            "project": "CamilleLynn's",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Current",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "CamilleLynn's Coding",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Current",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "CamilleLynn's Financials",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Future",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "CamilleLynn's Bookkeeping",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Future",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "Course Projects & Assignments",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Completed",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "Inventory",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Future",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "Task Manager",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Future",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "Recipe Book",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Future",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "Meal Planning",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Future",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "Shopping List",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Future",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "Calendar",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Future",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        },
+        {
+            "project": "Game",
+            "imageUrl": "./images/icons8-chameleon-64.png",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis necessitatibus accusamus corporis delectus deleniti cum ab ipsam magni aliquid, in assumenda voluptatem, numquam ratione unde nobis nesciunt error autem quas eligendi modi placeat dicta doloribus. Delectus quia rerum nostrum. Temporibus voluptas minima dicta qui accusamus recusandae ipsa eos maiores eaque quos nostrum porro atque iure ut veritatis similique architecto placeat, iusto, quis quo perspiciatis? Asperiores error iusto cum impedit corrupti. Iusto adipisci tempora reiciendis eos magni hic itaque aliquam architecto velit blanditiis quia assumenda laudantium dolore tenetur nemo aspernatur praesentium, esse voluptatibus ullam officiis amet officia? Non, ex aperiam?",
+            "progress": "Future",
+            "partialDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quis..."
+        }
+    ]
+}

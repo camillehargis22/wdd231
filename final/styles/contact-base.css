@@ -1,0 +1,50 @@
+#contact {
+    border: solid 1px #000080;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #006400;
+}
+
+form {
+    border: solid 1px #006400;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 1.5rem;
+    color: #006400;
+    padding-top: .2rem;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+textarea {
+    color: #006400;
+    border: solid 2px #006400;
+}
+
+input:required {
+    border-left-width: 5px;
+    border-left-color: #D70000;
+}
+
+input:focus {
+    border-left-color: #000000; outline: none;
+}
+
+input:required:valid {
+    border-left-color: #4CB963;
+}
+
+input[type=submit] {
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #E9F1F7;
+}

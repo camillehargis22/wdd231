@@ -1,0 +1,15 @@
+@media only screen and (min-width: 38rem) {
+    body {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    main img {
+        width: 700px;
+    }
+
+    #home-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 8px;
+    }
+}

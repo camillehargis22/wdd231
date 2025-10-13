@@ -17,24 +17,54 @@ futureBtn.addEventListener("click", () => {
 });
 
 async function getCompletedProjectsData() {
-    const response = await fetch('./data/projects.json');
-    data = await response.json();
-    let completedProjects = data.projects.filter(project => project.progress == "Completed");
-    displayProjects(completedProjects);
+    try {
+        const response = await fetch('./data/projects.json');
+        if (response.ok) {
+            data = await response.json();
+            let completedProjects = data.projects.filter(project => project.progress == "Completed");
+            displayProjects(completedProjects);
+        }
+        else {
+            throw Error(await response.text());
+        }
+    }
+    catch (error) {
+        console.log(error);
+    }
 }
 
 async function getCurrentProjectsData() {
-    const response = await fetch('./data/projects.json');
-    const data = await response.json();
-    let currentProjects = data.projects.filter(project => project.progress == "Current");
-    displayProjects(currentProjects);
+    try {
+        const response = await fetch('./data/projects.json');
+        if (response.ok) {
+            const data = await response.json();
+            let currentProjects = data.projects.filter(project => project.progress == "Current");
+            displayProjects(currentProjects);
+        }
+        else {
+            throw Error(await response.text());
+        }
+    }
+    catch (error) {
+        console.log(error);
+    }
 }
 
 async function getFutureProjectsData() {
-    const response = await fetch('./data/projects.json');
-    const data = await response.json();
-    let futureProjects = data.projects.filter(project => project.progress == "Future");
-    displayProjects(futureProjects);
+    try {
+        const response = await fetch('./data/projects.json');
+        if (response.ok) {
+            const data = await response.json();
+            let futureProjects = data.projects.filter(project => project.progress == "Future");
+            displayProjects(futureProjects);
+        }
+        else {
+            throw Error(await response.text());
+        }
+    }
+    catch (error) {
+        console.log(error);
+    }
 }
 
 const displayProjects = (projects) => {

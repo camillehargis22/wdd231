@@ -1,0 +1,55 @@
+#cards section {
+    border: solid 1px #000080;
+    margin: 8px;
+    padding: 5px;
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+    "name"
+    "image"
+    "description"
+    "address"
+    "button";
+}
+
+dialog {
+    text-align: center;
+}
+
+#cards section figure {
+    max-width: 300px;
+    height: 200px;
+}
+
+#cards section figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cards section h2 {
+    grid-area: name;
+}
+
+#cards section figure {
+    grid-area: image;
+}
+
+#cards section p {
+    grid-area: description;
+}
+
+#cards section address {
+    grid-area: address;
+    margin-bottom: 5px;
+}
+
+#cards section input[type=submit] {
+    grid-area: button;
+}
+
+#message-area {
+    text-align: center;
+    font-size: larger;
+    padding: 8px;
+}

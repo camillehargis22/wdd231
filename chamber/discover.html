@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Project - Join</title>
-    <meta name="description" content="Chamber Project - Thanks Page">
+    <title>Chamber Project - Home</title>
+    <meta name="description" content="Chamber Project - Home Page">
     <meta name="author" content="Camille Hargis">
-    <meta property="og:title" content="Chamber Project - Thanks Page">
-    <meta property="og:description" content="Thanks page for Camille Hargis for course WDD231 for Chamber Project.">
+    <meta property="og:title" content="Chamber Project - Home Page">
+    <meta property="og:description" content="Home page for Camille Hargis for course WDD231 for Chamber Project.">
     <meta property="og:image" content="https://camillehargis22.github.io/wdd231/chamber/images/bank.svg">
     <meta property="og:url" content="https://camillehargis22.github.io/wdd231/chamber/index.html">
 
@@ -23,14 +23,16 @@
     <link rel="stylesheet" href="styles//normalize.css">
     <link rel="stylesheet" href="styles/header-base.css">
     <link rel="stylesheet" href="styles/header-large.css">
-    <link rel="stylesheet" href="styles/thanks-base.css">
+    <link rel="stylesheet" href="styles/discover-base.css">
+    <link rel="stylesheet" href="styles/discover-medium.css">
+    <link rel="stylesheet" href="styles/discover-large.css">
     <link rel="stylesheet" href="styles/footer-base.css">
     <link rel="stylesheet" href="styles/footer-large.css">
 
     <!-- Scripts -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-     <!-- <script src="scripts/thanks.js" defer></script> -->
+    <script src="scripts/discover.js" defer></script>
 </head>
 <body>
     <header>
@@ -41,16 +43,16 @@
         <ul>
             <li class="link"><a href="index.html">Home</a></li>
             <li class="link"><a href="directory.html">Directory</a></li>
-            <li class="link current"><a href="join.html">Join</a></li>
-            <li class="link"><a href="discover.html">Discover</a></li>
+            <li class="link"><a href="join.html">Join</a></li>
+            <li class="link current"><a href="discover.html">Discover</a></li>
         </ul>
     </nav>
     </header>
     <main>
-        <h1>Thank you for Joining!</h1>
-        <div id="results"></div>
+        <div id="message-area"></div>
+        <div id="cards"></div>
+        <dialog id="card-details"></dialog>
     </main>
-    <script src="scripts/thanks.js"></script>
     <footer>
         <div class="contact">
             <p class="bold">Roy Chamber of Commerce</p>

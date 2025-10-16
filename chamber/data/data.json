@@ -1,0 +1,68 @@
+{
+    "businesses": [
+        {
+            "name": "Hill Aerospace Museum",
+            "address": "7961 Cottonwood St Building 1955, Hill AFB, UT 84056",
+            "phone": "(801) 825-5817",
+            "description": "A military aviation museum located at Hill Air Force Base in Roy, Utah. It is dedicated to the history of the base and aviation in Utah.",
+            "imageUrl": "./images/hafb-museum.webp",
+            "website": "https://www.aerospaceutah.org"
+        },
+        {
+            "name": "Kent's Market",
+            "address": "3535 W 5600 S, Roy, UT 84067",
+            "phone": "(801) 985-3940",
+            "description": "Local chain of grocery stores selling a range of produce, baked goods and meat.",
+            "imageUrl": "./images/kents.webp",
+            "website": "https://www.kentsgrocery.com"
+        },
+        {
+            "name": "Aaron's Jewelry",
+            "address": "5718 S 1900 W, Roy, UT 84067",
+            "phone": "(801) 775-8343",
+            "description": "Specializes in quality, custom jewelry.",
+            "imageUrl": "./images/aarons-jewelry.webp",
+            "website": "https://www.aaronsjewelry.com"
+        },
+        {
+            "name": "XTM Motorsports",
+            "address": "5528 S 1900 W, Roy, UT 84067",
+            "phone": "(801) 774-5955",
+            "description": "Dealership selling a range of motorsports vehicles such as dirt bikes, ATVs, and scooters.",
+            "imageUrl": "./images/xtm-motorsports.webp",
+            "website": "https://www.facebook.com/XTMMOTORSPORTS/"
+        },
+        {
+            "name": "Weber County Library",
+            "address": "2039 W 4000 S, Roy, UT 84067",
+            "phone": "(801) 337-2670",
+            "description": "Library offering books for adults, kids and teens, along with DVDs and CDs, plus a cafe.",
+            "imageUrl": "./images/library.webp",
+            "website": "https://www.weberpl.lib.ut.us"
+        },
+        {
+            "name": "Roy High School",
+            "address": "2150 W 4800 S, Roy, UT 84067",
+            "phone": "(801) 476-3600",
+            "description": "A 5A secondary school founded in 1965 that serves the residents of Roy, Utah.",
+            "imageUrl": "./images/roy-high.webp",
+            "website": "https://roy.wsd.net"
+        },
+        {
+            "name": "Roy Recreation Complex",
+            "address": "2150 W 4700 S, Roy, UT 84067",
+            "phone": "(801) 774-1050",
+            "description": "Recreation center with a pool, weight room, basketball court, and areas for racquetball and pickleball.",
+            "imageUrl": "./images/complex.webp",
+            "website": "https://www.royutah.gov"
+        },
+        {
+            "name": "Roy Aquatic Center",
+            "address": "2977 W 5200 S, Roy, UT 84067",
+            "phone": "(801) 774-8590",
+            "description": "City-run public swimming facility that's open from Memorial Day through Labor Day only.",
+            "imageUrl": "./images/aquatic-center.webp",
+            "website": "https://www.royutah.gov"
+        }
+    ]
+}
